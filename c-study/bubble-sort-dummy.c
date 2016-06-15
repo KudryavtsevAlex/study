@@ -20,7 +20,7 @@ int main( int argc, char *argv[]){
 
     // check entered array size
     if (a_size > MAX_ARR_SIZE) {
-        fprintf(stderr, "Sorry, but only %d array size is supported, not greated\n", MAX_ARR_SIZE);
+        fprintf(stderr, "Sorry, but only %d array size is supported, not greater\n", MAX_ARR_SIZE);
         exit(1);
     }
     if (a_size == 0) {
